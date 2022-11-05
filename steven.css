@@ -1,0 +1,155 @@
+body { /*Added color, min height & flex direction. Changed background color to white*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: white;
+    color: rgb(48, 35, 78);
+    min-height: 100vh;
+    flex-direction: column
+    
+}
+
+h1 { /* Changed margin, colour values, font & added text-shadow */
+    text-align: center; 
+	font-size: 3.5em;
+	margin-top: 50px;
+	color: #073F01;
+	color: #000000; 
+	font-family: 'trebuchet ms', sans-serif;
+	text-shadow: 2px 2px #20c443;  /* Added as one of three chosen attributes */
+}
+  
+h2 {  /* Edited colour & changed margin values */
+	font: 1.5em; 
+	color: #000000;
+	margin-top: 25px;
+	margin-left: 45px;
+   
+}
+
+#navigation {  /*Added many different attributes, including the tags for the sidebar - Changed values as well */
+	width: 100px;
+	float: left;
+	margin-top: 150px;
+	padding-left: 50px;
+	font-family:'Times New Roman', Times, serif;
+	font-size: large;
+    color:rgb(223, 104, 25);
+	background: linear-gradient(180deg, #cfc0c0, #423d3d);
+    float: right;
+    text-align: center;
+    padding: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+#content { /* Created id content & aligned to be fixed on center page */
+	width: 1600px;
+	
+	text-align: center;
+
+}
+
+.text {  /*Created a new class dedicated for paragraph tag */
+	
+	font-family:'Times New Roman', Times, serif; 
+    padding-left: 0px;
+	font-size: 1.1em;
+	text-align: center;
+    text-indent: 50px; /* One of three chosen extra CSS value */
+}
+
+
+
+img { /* Removed redundant tags, kept align */
+	align-items: center
+}
+
+.source { /* Changed font family, removed tags & adjusted margin top + added margin left*/
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 20px;
+	margin-left: 45px;
+	
+}
+
+
+/* Added in by me */
+
+.footer { /* Dedicated to the footer section of the website */
+	display: inline-block;
+	
+	height: 75px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #363131;
+	color: #ffffff;
+	text-align: center;
+	margin-top: auto;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ p{  /*Added to style the website*/
+	font-size: 14px;
+	line-height: 2em;
+	margin-bottom: 16px;
+ }
+
+
+h3 { /* Added h3 for footer */
+	font: 1.5em;
+	color: #000000;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+
+.main.list { /* Class dedicated for the lists found on each page */
+        padding: 50%;
+		font-size: 1.0em;
+		font-family:'Times New Roman', Times, serif;
+	    text-align: center;
+	}
+
+.banner {     /*Dedicated for the banner on the top of each webpage */
+	height: 250px;
+	background: #f7efef;
+	background-image: url(https://plantpowertaskforce.org/wp-content/uploads/2017/03/news-banner-broccoli.jpg);  
+}
+
+.banner__content { /* Content within said banner */
+	font-family:'Times New Roman', Times, serif;
+	font-size: 25px;
+    max-width: 500px;
+	padding: 80px;
+    margin: auto;
+    display: flex;
+	align-items: center;
+    letter-spacing: 2px;
+}
+
+a:link { /* Shows how links are colored before activating */
+	color: #ffffff;
+}
+a:visited { /* Activated link colour */
+	color: #8860e4;
+}
+
+a:hover { /* Shows the colour when the user hovers their mouse over a link */
+	color:rgb(194, 28, 125);
+}
+
+a:active { /* Changes colour when user cicks a link */
+	color:#15f74e;
+}
+
+#beef { /* Added an id for the image on the final page*/
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+html { /* Added for smooth scrolling experience + one of three chosen attributes */
+	scroll-behavior: smooth;
+  }
+
+ 
